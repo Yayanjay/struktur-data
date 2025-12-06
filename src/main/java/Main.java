@@ -6,7 +6,7 @@ public static void main(String[] args) {
 
     mergeSort(data, 0, data.length - 1);
 
-    System.out.println("After sorting descending: " + Arrays.toString(data));
+    System.out.println("After sorting: " + Arrays.toString(data));
 }
 
 private static void mergeSort(int arr[], int left, int right) {
