@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public static void main(String[] args) {
-    int data[] = {45, 12, 90, 32, 67, 81, 10, 55};
+    int[] data = {45, 12, 90, 32, 67, 81, 10, 55};
     System.out.println("Before sorting: " + Arrays.toString(data));
 
     mergeSort(data, 0, data.length - 1);
